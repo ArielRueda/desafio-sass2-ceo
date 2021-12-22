@@ -1,0 +1,97 @@
+#barra {
+    @include barra-navegacion;
+    a {
+        text-decoration: underline;
+    }
+}
+
+carousel-inner div img {
+    @include carousel-de-fotos-ix;
+}
+
+#card {
+    width: $card;
+}
+
+.container {
+    .icono-bolsa1 {
+        position: relative;
+        left: $icono-bolsa1;
+    }
+    .icono-bolsa2 {
+        position: relative;
+        left: $icono-bolsa2;
+    }
+    .imagen-gale {
+        width: 100%;
+    }
+    .titulo {
+        font-size: $titulo-font;
+        line-height: $titulo-line;
+    }
+    .mapa {
+        position: relative;
+        top: $map-top;
+    }
+}
+
+#contacto {
+    position: relative;
+    top: $contacto-top;
+    width: $contacto-width;
+    left: $contacto-left;
+}
+
+#footer {
+    @include footer-all;
+    .footer-galeria {
+        font-size: $footer-galeria-font;
+        color: black;
+        text-decoration: underline;
+    }
+    .redes {
+        li {
+            list-style: none;
+        }
+    }
+}
+
+#texto-cl {
+    position: relative;
+    top: $texto-top;
+}
+
+#mapa-cl {
+    position: relative;
+    top: $mapacl-top;
+}
+
+.titulo-cl {
+    font-size: $titulo-cl-font;
+}
+
+.texto-sn {
+    position: relative;
+    top: $texto-sn-top;
+    margin: auto;
+    width: $texto-sn-width;
+    font-size: $texto-sn-top-font;
+}
+
+#fotos-sn {
+    position: relative;
+    top: $fotos-sn-top;
+    object-fit: cover;
+    width: 80%;
+    background-position: center;
+}
+
+#footer2 {
+    position: relative;
+    @extend #footer;
+    top: $footer2-top;
+    background-color: #703048;
+    height: $footer2-height;
+    width: $footer2-width;
+    margin: 0px;
+}

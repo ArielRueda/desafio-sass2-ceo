@@ -1,0 +1,26 @@
+@mixin barra-navegacion {
+    background-color: #F01F6C;
+    position: fixed;
+    top: 0;
+    z-index: $z-index;
+}
+
+@mixin carousel-de-fotos-ix {
+    background-size: cover;
+    height: $car-height;
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+}
+
+@mixin footer-all {
+    position: relative;
+    top: $footer-top;
+    background-color: #703048;
+    height: $footer-height;
+    width: $footer-width;
+    font-weight: map-get($mimap, normal);
+    list-style: none;
+}
+
+$mimap:(light:300, normal:400, bold:700);

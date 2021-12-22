@@ -1,0 +1,115 @@
+#barra {
+  background-color: #F01F6C;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+#barra a {
+  text-decoration: underline;
+}
+
+carousel-inner div img {
+  background-size: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  width: 100%;
+}
+
+#card {
+  width: 100%;
+}
+
+.container .icono-bolsa1 {
+  position: relative;
+  left: 2rem;
+}
+
+.container .icono-bolsa2 {
+  position: relative;
+  left: 10rem;
+}
+
+.container .imagen-gale {
+  width: 100%;
+}
+
+.container .titulo {
+  font-size: 1.7rem;
+  line-height: 0.8rem;
+}
+
+.container .mapa {
+  position: relative;
+  top: -1.9rem;
+}
+
+#contacto {
+  position: relative;
+  top: 5rem;
+  width: 80%;
+  left: 3rem;
+}
+
+#footer, #footer2 {
+  position: relative;
+  top: 0;
+  background-color: #703048;
+  height: 10rem;
+  width: 100vw;
+  font-weight: 400;
+  list-style: none;
+}
+
+#footer .footer-galeria, #footer2 .footer-galeria {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: underline;
+}
+
+#footer .redes li, #footer2 .redes li {
+  list-style: none;
+}
+
+#texto-cl {
+  position: relative;
+  top: 60px;
+}
+
+#mapa-cl {
+  position: relative;
+  top: 35px;
+}
+
+.titulo-cl {
+  font-size: 1.5rem;
+}
+
+.texto-sn {
+  position: relative;
+  top: 6rem;
+  margin: auto;
+  width: 80%;
+  font-size: 2rem;
+}
+
+#fotos-sn {
+  position: relative;
+  top: 7.24rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80%;
+  background-position: center;
+}
+
+#footer2 {
+  position: relative;
+  top: 12rem;
+  background-color: #703048;
+  height: 10rem;
+  width: 100%;
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */
