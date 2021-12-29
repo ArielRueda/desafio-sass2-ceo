@@ -2,6 +2,8 @@
     @include barra-navegacion;
     a {
         text-decoration: underline;
+        font-size: 22px;
+        font-family: 'Vollkorn', serif;
     }
 }
 
@@ -46,7 +48,7 @@ carousel-inner div img {
     @include footer-all;
     .footer-galeria {
         font-size: $footer-galeria-font;
-        color: black;
+        color: map-get($colors, terciario);
         text-decoration: underline;
     }
     .redes {

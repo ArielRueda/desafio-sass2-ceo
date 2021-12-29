@@ -1,5 +1,5 @@
 @mixin barra-navegacion {
-    background-color: #F01F6C;
+    background-color: map-get($colors, primario);
     position: fixed;
     top: 0;
     z-index: $z-index;
@@ -16,11 +16,12 @@
 @mixin footer-all {
     position: relative;
     top: $footer-top;
-    background-color: #703048;
+    background-color: map-get($colors, secundario);
     height: $footer-height;
     width: $footer-width;
-    font-weight: map-get($mimap, normal);
+    font-weight: map-get($mimap, Regular);
     list-style: none;
 }
 
-$mimap:(light:300, normal:400, bold:700);
+$mimap:(regular:400, Regular:400 italic, Medium :500, Semi-bold :600 italic, Bold :700);
+$colors:(primario:#F01F6C, secundario:#703048, terciario:black);
